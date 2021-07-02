@@ -1,0 +1,37 @@
+* {
+  background-color: #e5e5f7;
+  background-image: radial-gradient(#000 0.5px, #e5e5f7 0.5px);
+  background-size: 10px 10px;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 120px;
+}
+
+.input {
+  border-style: none none solid none;
+  outline: none;
+  width: 500px;
+  font-size: 154px;
+  text-align: center;
+  margin: 50px;
+  color: darkcyan;
+}
+
+.guess {
+  background: darkcyan;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  height: 50px;
+  width: 200px;
+  font-size: 25px;
+  color: white;
+}
+
+.guess:hover {
+  opacity: 0.7;
+}
